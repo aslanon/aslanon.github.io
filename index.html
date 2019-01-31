@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Onur Aslan</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://s.cdpn.io/profiles/user/1844768/80.jpg?1547398190"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto");
+
+      :root {
+        --dx: 0;
+        --dy: 0;
+      }
+
+      body {
+        background: linear-gradient(to bottom, #1f1033 17%, #04010e 100%);
+        overflow: hidden;
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+      }
+      canvas {
+        background: transparent;
+        cursor: grabbing;
+        filter: contrast(1.5);
+        user-select: none;
+        pointer-events: none;
+      }
+      img {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        z-index: 2;
+        display: block;
+        left: 0;
+        top: 0;
+        transform: translate(var(--dx), var(--dy));
+        border-radius: 500px;
+      }
+      div {
+        color: white;
+        position: fixed;
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        max-height: 500px;
+        z-index: 99999999999;
+      }
+      div:hover {
+        background: rgba(31, 16, 51, 0.9);
+        padding: 15px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      h6 {
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin: 0;
+        opacity: 0.5;
+      }
+      h6:hover {
+        opacity: 1;
+      }
+      p {
+        font-size: 1rem;
+      }
+      a {
+        color: cornflowerblue;
+      }
+      .flex {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <h1>
+        ✋ Hi, I'm Onur.
+      </h1>
+      <h6>
+        front-end developer
+        <a href="https://twitter.com/patron_ai">@patron_ai</a>
+      </h6>
+
+      <p>
+        I am developing interfaces with popular technologies for mobile and web
+        applications. I also create illustrations and animations for these
+        interfaces.<br /><br />
+        <a href="https://twitter.com/aslanon">follow me on twitter</a>
+      </p>
+    </div>
+    <canvas
+      center="https://s.cdpn.io/profiles/user/1844768/80.jpg?1547398190"
+    ></canvas>
+  <script type="text/javascript" src="./js/canvas.bundle.js"></script></body>
+</html>

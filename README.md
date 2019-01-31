@@ -1,6 +1,6 @@
 # onur.github.io
 
-ES6 ve web paketi kullanarak kişisel web sayfası tasarımı. (Canvas animation)
+Personal web page design using ES6 and web package. (Canvas animation)
 http://onur.github.io
 
 <img src="https://raw.githubusercontent.com/aslanon/onur.github.io/master/statics/screenshot.png"></img>

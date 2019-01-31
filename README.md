@@ -20,3 +20,5 @@ http://onur.github.io
         npm start
 
 visit http://localhost:3000
+
+###### \* Dist directory is copied to the root directory to work on the github page

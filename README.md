@@ -1,6 +1,6 @@
 # aslanon.github.io
 
-Personal web page design using ES6 and web package. (Canvas animation)
+Personal web page design using ES6 and webpack. (Canvas animation)
 http://aslanon.github.io
 
 <img src="https://raw.githubusercontent.com/aslanon/aslanon.github.io/master/statics/screenshot.png"></img>

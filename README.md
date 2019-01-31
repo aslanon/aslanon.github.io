@@ -1,15 +1,15 @@
-# onur.github.io
+# aslanon.github.io
 
 Personal web page design using ES6 and web package. (Canvas animation)
-http://onur.github.io
+http://aslanon.github.io
 
-<img src="https://raw.githubusercontent.com/aslanon/onur.github.io/master/statics/screenshot.png"></img>
+<img src="https://raw.githubusercontent.com/aslanon/aslanon.github.io/master/statics/screenshot.png"></img>
 
 ## Getting Started
 
 1.  Clone the repo:
 
-        git clone git@github.com:aslanon/onur.github.io.git
+        git clone git@github.com:aslanon/aslanon.github.io.git
 
 2.  Install dependencies:
 

@@ -1,4 +1,4 @@
-# aslanon.github.io
+# Demo
 
 Personal web page design using ES6 and webpack. (Canvas animation)
 http://aslanon.github.io

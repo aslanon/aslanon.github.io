@@ -1,7 +1,11 @@
 # Demo
 
 Personal web page design using ES6 and webpack. (Canvas animation)
-http://aslanon.github.io
+
+1. Github Page
+        http://aslanon.github.io
+2. CodePen Page
+        https://codepen.io/onuraslan/pen/zeKzKa
 
 <img src="https://raw.githubusercontent.com/aslanon/aslanon.github.io/master/statics/screenshot.png"></img>
 

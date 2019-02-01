@@ -1,6 +1,6 @@
 const skillData = [
-  { text: "JavaScript", size: 8, color: "pink" },
-  { text: "Canvas", size: 5, color: "yellow" },
+  { text: "JavaScript", size: 14, color: "pink" },
+  { text: "Canvas", size: 10, color: "yellow" },
   { text: "Vue.js", size: 8, color: "chartreuse" },
   { text: "HTML & CSS", size: 9, color: "cornflowerblue" },
   { text: "Illustration", size: 8.5, color: "orange" },

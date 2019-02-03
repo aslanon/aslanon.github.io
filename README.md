@@ -5,7 +5,7 @@ Personal web page design using webpack. (Canvas animation)
 1. Github Page
         http://aslanon.github.io
 2. CodePen Page
-        https://codepen.io/onuraslan/pen/zeKzKa
+        https://codepen.io/onuraslan/details/zeKzKa
 
 <img src="https://raw.githubusercontent.com/aslanon/aslanon.github.io/master/statics/screenshot.png"></img>
 

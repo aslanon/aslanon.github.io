@@ -1,0 +1,679 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+ul, ol {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	display: block;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+
+h1{
+	margin:0 auto;
+	font:50px Calibri Light;
+	color:#ffffff;
+}
+h2{
+	margin:0 auto;
+	font:50px Calibri Bold;
+	color:#ffffff;
+}
+h3{
+	font:36px Calibri Light;
+	color:#ffffff;
+}
+h4{
+	font:22px Calibri Bold;
+	color:#ffffff;
+}
+h5{
+	font:18px Calibri Bold;
+	color:#ffffff;
+}
+
+
+
+@font-face {
+    font-family: 'Raleway';
+    src:     url('fonts/Raleway-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src:     url('fonts/Raleway-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src:     url('fonts/Raleway-ExtraBold.ttf') format('truetype');
+}
+
+body{
+	/*background-image:url(bg4.jpg); bg-bar.png*/
+	font-size: 14px;
+	line-height: 18px;
+	color: #333;
+	margin:0 auto;
+	background: #151516;
+}
+.main_widget{
+	width:100%;
+	max-height: 600px;
+	margin:0 auto;	
+	font-family:Raleway;
+	text-align: center;
+	/*background-image: url(img/main_gif.gif);*/
+	background-repeat: no-repeat;
+}
+.container_menu{
+	max-width:650px;
+	max-height: 600px;
+	width: 600px;
+	padding-right:80px; 
+	margin:0 auto;	
+	text-align: center;
+}
+.container_layout_me{
+	text-align: center;
+	display: inline-block;
+	margin-top: 50px;
+	width: 650px;
+	z-index: 2;
+	height:500px;
+  	transition:all 0.31s ease;
+	background-size: 650px 500px;
+  	-webkit-transition:background all 0.31s ease;
+  	-moz-transition:background all 0.31s ease;
+  	-o-transition:background all 0.31s ease;
+  	transition:background all 0.31s ease;
+
+  	background: url('img/layers/1.png') no-repeat center,url("img/layers/5.png") no-repeat center;
+}
+.container_layout_me:hover{
+	width: 650px;
+	height:500px;
+	background-size: 650px 500px;
+	background: url('img/layers/1_1.png') no-repeat center, url("img/layers/2.png") no-repeat center -15px, url("img/layers/5.png") no-repeat center, url("img/layers/3.png") no-repeat center -7px, url("img/layers/4_ikinci.png") no-repeat center -12px, url("img/layers/4.png") no-repeat center 12px;
+ }
+
+.main_container{
+	margin:0 auto;
+	width: 100%;
+	height: 72%;
+	padding-top:5%;
+	background-size:  auto 600px;
+	background-attachment: fixed;
+	background-position: top center;
+	background-attachment: fixed;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;		
+	/*background: #151516;*/
+}
+#page_container{
+	margin:0 auto;
+	width: 100%;
+	height: 6%;
+	position: relative;
+}
+
+#wave1{
+    background: url(img/gol1.png), url(img/gol1_1.png);
+    background-repeat: repeat-x;
+    z-index: 5555;
+    height: 70px;
+    animation:wave1_anim 40s infinite;
+	animation-timing-function: linear;
+	background-position:-250px, -220px;
+	overflow-x: hidden;
+	top: 120px;
+	position: relative;	
+
+}
+
+@keyframes wave1_anim {
+    from { background-position:-250px, -250px;}
+    to{ background-position:3000px, -3000px}
+    0% {;transform: translateY(8px, -2px);}
+    10% { transform: translateY(-2px),8px;}
+    20% {transform: translateY(8px,-2px);}
+    30% { transform: translateY(-2px,8px);}
+    40% { transform: translateY(8px,-2px);}
+    50% { transform: translateY(-2px,8px);}
+    60%{ transform: translateY(8px,-2px);}
+    70%{ transform: translateY(-2px,8px);}
+    80% { transform: translateY(8px,-2px);}
+    90% { transform: translateY(-2px,8px);}
+    100% { transform: translateY(8px,-2px);}
+}
+#wave2{
+    background: url(img/gol2.png);
+    background-repeat: repeat-x;
+    z-index: -3;
+    height: 100px;
+    animation:wave2_anim 30s infinite;
+	animation-timing-function: linear;
+    -webkit-animation:wave2_anim 30s infinite linear;
+	background-position:-250px;
+	overflow-x: hidden;
+	top: 190px;
+	position: relative;
+}
+@keyframes wave2_anim {
+    from { background-position:-250px;}
+    to{ background-position:250px;}
+    0% {;transform: translateY(12px);}
+    10% { transform: translateY(0px);}
+    20% {transform: translateY(12px);}
+    30% { transform: translateY(0px);}
+    40% { transform: translateY(12px);}
+    50% { transform: translateY(0px);}
+    60%{ transform: translateY(12px);}
+    70%{ transform: translateY(0px);}
+    80% { transform: translateY(12px);}
+    90% { transform: translateY(0px);}
+    100% { transform: translateY(12px);}
+}
+#boat{
+    background: url(img/tekneli.gif);
+    height: 305px;
+    width: 100%;
+    bottom:-165px;
+    margin-bottom:-220px;
+    position: relative;
+    background-size: 35%;
+    z-index: -1;
+    animation:boat 30s  infinite;
+    -webkit-animation:boat_anim 30s  infinite;
+	animation-timing-function: linear;
+	background-position:-550px, 0%;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+@keyframes boat_anim {
+	overflow: hidden;
+	from{ background-position:-550px, 0%}
+	to{ background-position:200%, 0%}
+    0% {;transform: translateY(15px);}
+    10% { transform: translateY(20px);}
+    20% {transform: translateY(15px);}
+    30% { transform: translateY(20px);}
+    40% { transform: translateY(15px);}
+    50% { transform: translateY(20px);}
+    60%{ transform: translateY(15px);}
+    70%{ transform: translateY(20px);}
+    80% { transform: translateY(15px);}
+    90% { transform: translateY(20px);}
+    100% { transform: translateY(15px);}
+}
+#mountain1{
+    background: url(img/dağ1.png),url(img/dağ2.png);
+    height: 272px;
+    width: 100%;
+    bottom:-150px;
+    margin-bottom:-180px;
+    position: relative;
+    z-index: -3;
+    animation:mountain1_anim 30s  infinite;
+     -webkit-animation:mountain1_anim 30s  infinite;
+	animation-timing-function: linear;
+	background-repeat: repeat;
+	overflow-x: hidden;
+	background-position:1111px, 0px;
+}
+@keyframes mountain1_anim {
+    from { background-position:1111px,0px;}
+    to{ background-position:-1111px,-1111px;}
+}
+#space, .space_main, .space_gap{
+    background: url(img/space.png),url(img/space2.png);
+    height: 312px;
+    width: 100%;
+    margin-bottom:100px;
+    position: absolute;
+    z-index: -15;
+    animation:space_anim 60s  infinite;
+    -webkit-animation:space_anim 60s  infinite;
+	animation-timing-function: linear;
+	background-repeat: repeat;
+	overflow-x: hidden;
+	background-position:0%, 0%;
+}
+@keyframes space_anim {
+    from { background-position:0%, 0%;}
+    to{ background-position:-20%, -60%;}
+}
+#space{bottom:-250px;}
+.space_main{
+	background-repeat: repeat-x;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	margin:-50px auto;	
+	text-align: center;
+}
+.space_gap{
+	background-repeat: repeat-x;
+	z-index: 1;
+	width: 100%;
+    height: 312px;
+    margin-bottom:0px;
+	margin:0 auto;	
+	text-align: center;
+}
+
+#moon{
+    background: url(img/moon.png);
+    height: 185px;
+    width: 185px;
+    bottom:-260px;
+    left: 150px;
+    background-size: 50% 50%;
+    z-index: -4;
+    position: absolute;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	background-position:center; 
+}
+
+
+#star{
+	margin-top: -100px;
+    background: url(img/star.png);
+    background-repeat: no-repeat;
+    background-size: 6%;
+    z-index: -3;
+    height: 100px;
+    animation:star_anim 7s infinite;
+	animation-timing-function: linear;
+    -webkit-animation:star_anim 7s infinite linear;
+	background-position:120%;
+	overflow-x: hidden;
+    position: relative;
+}
+@keyframes star_anim {
+    from { background-position:120%;}
+    to{ background-position:-25px;}
+    0% {;transform: translateY(0px);}
+    50%{ transform: translateY(100px);}
+    100% { transform: translateY(200px);}
+}
+
+.transition p{
+	text-align: center;
+	font:36px Calibri Light;
+	color:#ffffff;
+}
+
+
+
+
+.links a{
+	opacity: 0.8;
+	margin:0 auto;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-ms-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;	
+	color:#000;
+	outline:none;
+	cursor:pointer;
+	font-family:Raleway-Medium;
+	font-size: 15px;
+}
+
+.links a:hover{
+	opacity:0.8;	
+	color:#1286e0;
+}
+
+.animation_container{
+	width:100%;
+	font-family:Raleway;
+	margin: 0 auto;
+    text-align: center;
+}
+
+
+.orange_bg{background: #fdd24c;}
+.white_bg{background: #fff;}
+.blue_bg{background-color: #2e65aa;}
+.blue_bg1{background-color: #25538c;}
+.blue_bg2{background-color: #1d4270;}
+.blue_bg3{background-color: #142d4d;}
+.green_bg{background-color: #5db22f;}
+.black_bg{background: #151516;}
+
+
+.page{
+	display: inline-block;
+	width:100%;
+	height: 5%;
+	margin:0 auto;	
+	color: white;
+	font-size: 20px;
+	font-family:Raleway;
+	background-attachment: fixed;
+	background-position: top center;
+	background-attachment: fixed;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;	
+}
+
+.page p{font-size:14px;margin-top:5%;line-height: 22px;}
+
+.cont500{max-width: 500px;}
+.cont700{max-width: 700px;}
+.cont900{max-width: 900px;}
+.contFull{max-width: 100%;}
+
+.container{
+	text-align: center;
+	height: 340px;
+	margin:0 auto;	
+	display: block;
+	font-family:Raleway;
+	padding-top: 100px;
+	font-size: 32px;
+}
+.top_blue_bg{
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 250px;
+	background-color: #2e65aa;
+	display: inline-block;
+	margin:0 auto;	
+	background-image: url(img/top_bg.png);
+}
+
+
+.about_text{
+	padding-top: 20%;
+	font-size: 32px;
+	color: white;
+	font-height: 40px;
+	text-align: center;
+	border-top: 1px solid white;
+}
+
+.container_text{
+	padding-top: 10%;
+	font-size: 32px;
+	color: black;
+	font-height: 40px;
+	text-align: center;
+}
+.container_text p{
+	font-size: 30px;
+}
+
+/* Let's get this party started */
+.left_grid3::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+.left_grid3::-webkit-scrollbar-track {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* Handle */
+.left_grid3::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.2);
+}
+.left_grid3::-webkit-scrollbar-thumb:window-inactive {
+    background: #2d2d2d;
+  
+}
+
+.heart {
+    fill: red;
+    position: relative;
+    top:0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25px;
+    animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+
+@media screen and (max-width: 720px) {
+    #container_layout_me {
+        background-size: 450px 300px;
+    }
+    #container_layout_me:hover {
+        background-size: 450px 300px;
+        background-position: center;
+    }
+    #boat{
+    	background-size: 60%;
+    }
+    #wave1, #wave2{
+    	background-size: 30%;
+    }
+}
+
+
+/* 
+http://codepen.io/andrewwierzba/pen/JorzzV
+*/
+span.title {
+  margin: 0 auto;
+  color: #BBB;
+  font-family:Raleway;
+  font-size: 0.85rem;
+  text-align: center;
+  display: block;
+}
+
+.basicBox, .swiggleBox, .checkBox {
+  width: 130px;
+  height: 65px;
+  margin: 15px auto;
+  color: #fff;
+  font-family:Raleway;
+  font-size: 1.15rem;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+svg rect, svg path, svg polyline {
+  fill: none;
+  stroke: rgba(255,255,255,0.7);
+  stroke-width: 1;
+}
+
+.basicBox:hover svg rect, .swiggleBox:hover svg path, .checkBox:hover svg polyline {
+  stroke: #4274D3;
+    font-size: 1.40rem;
+
+}
+
+/* Basic Box */
+svg rect {
+  stroke-dasharray: 400, 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.basicBox:hover svg rect {
+  stroke-width: 3;
+  stroke-dasharray: 35, 245;
+  stroke-dashoffset: 38;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+/* Swiggle Box */
+svg path {
+  stroke-dasharray: 265, 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+.swiggleBox:hover svg path {
+  stroke-width: 3;
+  stroke-dasharray: 0, 350;
+  stroke-dashoffset: 20;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+
+/* Check Box */
+.checkBox {
+  /* Add Padding Left To Center Text */
+}
+.checkBox svg {
+  /* Presentation Purposes */
+  margin-left: -10px;
+}
+.checkBox svg rect, .checkBox svg polyline {
+  fill: none;
+  stroke: #4274D3;
+  stroke-width: 1;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.checkBox:hover svg rect {
+  stroke-width: 2;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.checkBox:hover svg polyline {
+  stroke-width: 2;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.checkBox svg .button {
+  stroke-dasharray: 400px, 0;
+}
+.checkBox:hover svg .button {
+  stroke-dasharray: 0, 400px;
+  stroke-dashoffset: 33px;
+}
+/* Check Mark Effect */
+.box, .checkMark {
+  opacity: 0;
+}
+.checkBox:hover .box {
+  -webkit-animation: boxDisplay 0.2s forwards;
+  -moz-animation: boxDisplay 0.2s forwards;
+  -ms-animation: boxDisplay 0.2s forwards;
+  -o-animation: boxDisplay 0.2s forwards;
+  animation: boxDisplay 0.2s forwards;
+  -webkit-animation-delay: 0.65s;
+  -moz-animation-delay: 0.65s;
+  -ms-animation-delay: 0.65s;
+  -o-animation-delay: 0.65s;
+  animation-delay: 0.65s;
+}
+.checkBox:hover .checkMark {
+  -webkit-animation: checkDisplay 0.2s forwards;
+  -moz-animation: checkDisplay 0.2s forwards;
+  -ms-animation: checkDisplay 0.2s forwards;
+  -o-animation: checkDisplay 0.2s forwards;
+  animation: checkDisplay 0.2s forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+/* Check Box Display */
+@-webkit-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* Check Mark Display */
+@-webkit-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+#motor{
+    background: url(img/motor.png);
+    width: 450px;
+    left:-150px;
+    height: 270px;
+    position: relative;
+    background-size:100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}

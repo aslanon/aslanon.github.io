@@ -13,6 +13,7 @@
   width: 180px;
   height: 180px;
   overflow: visible;
+  z-index: -1;
 }
 .heart-loader__group {
   -webkit-transform-origin: 0 90px;

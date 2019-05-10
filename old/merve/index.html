@@ -9,7 +9,7 @@
     function getName() {
  let name
  if(location.search.split('?name=')[1]){
-      document.getElementById("name").innerHTML = x;
+      document.getElementById("name").innerHTML = location.search.split('?name=')[1];
 
     }
   

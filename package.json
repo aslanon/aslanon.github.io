@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gsap": "^2.0.1"
+    "gsap": "^3.6.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

@@ -7,7 +7,9 @@ const skillData = [
   { text: "UI & UX", size: 8, color: "red" },
   { text: "2D Animation", size: 8, color: "deeppink" },
   { text: "Responsive Design & PWA", size: 9, color: "aquamarine" },
-  { text: "Python", size: 8, color: "darkviolet" }
+  { text: "Python", size: 8, color: "darkviolet" },
+  { text: "React", size: 10, color: "aquamarine" },
+  { text: "React-Native", size: 10, color: "aquamarine" }
 ];
 
 module.exports = { skillData };
